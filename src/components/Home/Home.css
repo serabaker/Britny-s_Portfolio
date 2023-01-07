@@ -1,0 +1,16 @@
+* {
+  background-color: #f5f6f4;
+}
+
+.home-h1 {
+  /* color: rgb(205, 83, 83); */
+  color: #661b44;
+  font-size: 7rem;
+  align-items: flex-end;
+  display: flex;
+  justify-content: right;
+  padding: 0 32px;
+  margin-top: 52px;
+  /* font-family: "Marcellus", serif; */
+  font-family: "Baskervville", serif;
+}
