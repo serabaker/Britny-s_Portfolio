@@ -1,30 +1,31 @@
 * {
   background-color: #f5f6f4;
+  /* font-family: "Baskervville", serif; */
 }
 
 .home-h1 {
   /* color: rgb(205, 83, 83); */
-  color: #661b44;
-  font-size: 7rem;
+  /* color: #661b44; */
+  color: #bbb;
+  font-size: 5.3rem;
+  font-weight: 100;
+  font-variant: small-caps;
+  font-style: italic;
+  letter-spacing: 8px;
   align-items: flex-end;
   display: flex;
   justify-content: right;
   padding: 0 32px;
-  margin-top: 52px;
+  /* margin-top: 52px; */
   /* font-family: "Marcellus", serif; */
   font-family: "Baskervville", serif;
 }
 
 .home-2 {
-  /* color: rgb(205, 83, 83); */
   color: #661b44;
-  font-size: 7rem;
-  align-items: flex-end;
   display: flex;
   justify-content: left;
   padding: 0 32px;
-  margin-top: 52px;
-  /* font-family: "Marcellus", serif; */
   font-family: "Baskervville", serif;
 }
 
@@ -32,11 +33,44 @@
   padding-left: 10px;
   height: 350px;
   cursor: pointer;
+  /* padding-top: 16px; */
 }
 
 .project-home {
   font-size: 2.3rem;
   font-family: "Baskervville", serif;
-  color: #661b44;
+  /* color: rgb(205, 83, 83); */
+  color: #bbb;
   padding-left: 40px;
+}
+
+.para-2 {
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-transform: none;
+  display: flex;
+  justify-content: right;
+  font-family: "Baskervville", serif;
+  text-indent: 22px;
+  text-align: left;
+  padding: 0 72px;
+}
+
+.a-connet4Vets {
+  font-size: 1.3rem;
+  padding-left: 40px;
+  text-decoration: none;
+  color: #661b44;
+  /* font-family: "Baskervville", serif; */
+  letter-spacing: 10px;
+  /* padding-top: 10px; */
+}
+
+.home-h3 {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
