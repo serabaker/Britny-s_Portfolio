@@ -6,6 +6,9 @@ const Home = () => {
   return (
     <div>
       <h1 className="home-h1">{portfolioName}</h1>
+      <div>
+        <h2 className="home-h2">{portfolioName}</h2>
+      </div>
     </div>
   );
 };
