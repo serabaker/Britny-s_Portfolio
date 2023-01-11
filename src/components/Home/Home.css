@@ -15,7 +15,7 @@
   font-family: "Baskervville", serif;
 }
 
-.home-h2 {
+.home-2 {
   /* color: rgb(205, 83, 83); */
   color: #661b44;
   font-size: 7rem;
@@ -26,4 +26,17 @@
   margin-top: 52px;
   /* font-family: "Marcellus", serif; */
   font-family: "Baskervville", serif;
+}
+
+.img-1 {
+  padding-left: 10px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.project-home {
+  font-size: 2.3rem;
+  font-family: "Baskervville", serif;
+  color: #661b44;
+  padding-left: 40px;
 }
