@@ -4,7 +4,7 @@ import connet4Vets from "../../images/Connect4Vets.png";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       {" "}
       <p className="project-home">Projects</p>
       <h3 className="home-h3">
