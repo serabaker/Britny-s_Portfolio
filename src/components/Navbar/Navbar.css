@@ -1,0 +1,23 @@
+/* .nav {
+  height: 10vh;
+  background-color: red;
+} */
+.nav-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-li {
+  display: flex;
+  text-align: center;
+  padding-left: 60px;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-style: oblique;
+  color: rgba(141, 149, 71, 0.947);
+}
