@@ -1,16 +1,17 @@
 import React from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="#home">Home</a>
+    <nav className="nav">
+      <ul className="nav-ul">
+        <li className="nav-li">
+          <a href="#home">About</a>
         </li>
-        <li>
+        <li className="nav-li">
           <a href="#project">Project</a>
         </li>
-        <li>
+        <li className="nav-li">
           <a href="#blog">Blog</a>
         </li>
       </ul>

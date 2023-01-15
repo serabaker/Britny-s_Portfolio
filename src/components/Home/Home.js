@@ -8,7 +8,7 @@ const Home = () => {
   const portfolioName = ["Britny Lain"];
   return (
     <>
-      <div id="home">
+      <div id="about">
         <>{<Navbar />}</>
         <h1 className="home-h1">{portfolioName}</h1>
         <>{<Projects />}</>
