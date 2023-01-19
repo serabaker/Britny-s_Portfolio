@@ -11,6 +11,13 @@ app.get("/project1", (req, res) => {
     ],
   });
 });
+app.get("/blog", (req, res) => {
+  res.json({
+    blogTitles: ["How to Install Python Pandas in VSCode"],
+  });
+});
+
+//  need to figure out how to add entries w/o taking up so much space
 app.listen(PORT, () => {
   console.log(`Server is listening ${PORT}`);
 });
