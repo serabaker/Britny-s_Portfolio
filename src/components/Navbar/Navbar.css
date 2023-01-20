@@ -1,7 +1,8 @@
-/* .nav {
-  height: 10vh;
+.nav {
+  height: 100px;
+  margin-bottom: 50px;
   background-color: red;
-} */
+}
 .nav-ul {
   list-style: none;
   display: flex;
@@ -11,7 +12,7 @@
 .nav-li {
   display: flex;
   text-align: center;
-  padding-left: 60px;
+  padding: 0 30px;
   text-transform: capitalize;
 }
 a {
@@ -22,5 +23,21 @@ a {
   color: rgba(162, 170, 74, 0.947);
 
   /* color: rgba(141, 149, 71, 0.947); */
+  font-family: "Baskervville", serif;
+}
+
+.portfolio-name {
+  color: rgba(141, 149, 71, 0.947);
+  font-size: 3.3rem;
+  font-weight: 100;
+  font-variant: small-caps;
+  font-style: italic;
+  letter-spacing: 8px;
+  /* height: 100px; */
+  display: flex;
+  /* justify-content: right; */
+  padding: 0 32px;
+  /* margin-top: 52px; */
+  /* font-family: "Marcellus", serif; */
   font-family: "Baskervville", serif;
 }
