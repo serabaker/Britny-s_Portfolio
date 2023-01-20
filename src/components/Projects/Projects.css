@@ -1,6 +1,12 @@
+.project-container {
+  height: 700px;
+  display: flex;
+  border-bottom: solid black 1px;
+  width: auto;
+}
 .home-2 {
   color: #661b44;
-  display: flex;
+  /* display: flex; */
   justify-content: left;
   padding: 0 32px;
   font-family: "Baskervville", serif;
@@ -10,7 +16,7 @@
   padding-left: 10px;
   height: 350px;
   cursor: pointer;
-  /* padding-top: 16px; */
+  padding-top: 16px;
 }
 
 .project-home {
@@ -26,14 +32,14 @@
   letter-spacing: 3px;
   font-weight: 100;
   text-transform: none;
-  display: flex;
-  justify-content: right;
+  /* display: flex; */
+  /* justify-content: right; */
   font-family: "Zen Maru Gothic", sans-serif;
   /* font-family: "Baskervville", serif; */
   text-indent: 22px;
-  text-align: left;
-  padding: 0 72px;
-  line-height: 24px;
+  /* text-align: left; */
+  /* padding: 0 72px; */
+  /* line-height: 24px; */
 }
 
 .a-connet4Vets {
@@ -47,20 +53,20 @@
 }
 
 .home-h3 {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  /* width: 50%; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* display: flex; */
   font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .list-of-tech {
-  display: flex;
+  /* display: flex; */
   padding-left: 5px;
 }
 
 .project-ul-list {
   list-style: none;
-  line-height: 29px;
+  /* line-height: 29px; */
   font-family: "Zen Maru Gothic", sans-serif;
 }

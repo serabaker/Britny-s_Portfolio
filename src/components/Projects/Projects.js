@@ -12,7 +12,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div id="projects">
+    <div id="project" className="project-container">
       <p className="project-home">Projects</p>
       {/* <div className="display-container"> */}
       <h3 className="home-h3">

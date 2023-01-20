@@ -1,0 +1,6 @@
+.about {
+  height: 600px;
+  width: auto;
+  display: flex;
+  border-bottom: solid black 1px;
+}
