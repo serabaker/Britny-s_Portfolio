@@ -19,5 +19,8 @@ a {
   text-transform: uppercase;
   letter-spacing: 10px;
   font-style: oblique;
-  color: rgba(141, 149, 71, 0.947);
+  color: rgba(162, 170, 74, 0.947);
+
+  /* color: rgba(141, 149, 71, 0.947); */
+  font-family: "Baskervville", serif;
 }

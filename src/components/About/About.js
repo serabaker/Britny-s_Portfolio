@@ -5,7 +5,6 @@ const About = () => {
   return (
     <div id="about" className="about">
       <p>Wamp wamp what it do, what it do. Im Britny</p>
-      {/* <hr /> */}
     </div>
   );
 };
