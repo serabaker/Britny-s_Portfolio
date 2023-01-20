@@ -10,11 +10,11 @@
   font-variant: small-caps;
   font-style: italic;
   letter-spacing: 8px;
-  align-items: flex-end;
+  height: 100px;
   display: flex;
   justify-content: right;
   padding: 0 32px;
-  /* margin-top: 52px; */
+  margin-top: 52px;
   /* font-family: "Marcellus", serif; */
   font-family: "Baskervville", serif;
 }
