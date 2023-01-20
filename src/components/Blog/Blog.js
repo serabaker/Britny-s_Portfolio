@@ -10,9 +10,9 @@ const Blog = () => {
       .then((data) => setBlogData(data));
   }, []);
   return (
-    <div id="blog">
+    <div id="blog" className="blog-container">
       <hr />
-      <div className="blog-container">
+      <div>
         {typeof blogData.blogTitles === "undefined" ? (
           <p>Loading...</p>
         ) : (
