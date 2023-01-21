@@ -1,72 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .project-container {
-  height: 700px;
   display: flex;
   border-bottom: solid black 1px;
-  width: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 700px;
 }
 .home-2 {
   color: #661b44;
-  /* display: flex; */
+  display: flex;
   justify-content: left;
   padding: 0 32px;
   font-family: "Baskervville", serif;
 }
-
+.cards {
+  width: 350px;
+  height: auto;
+  position: relative;
+  background: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.3s ease-in;
+}
 .img-1 {
-  padding-left: 10px;
-  height: 350px;
+  /* padding-left: 10px; */
+  height: 200px;
   cursor: pointer;
-  padding-top: 16px;
+  /* padding-top: 16px; */
 }
 
-.project-home {
+/* .project-home {
   font-size: 2.3rem;
-  font-family: "Baskervville", serif;
-  /* color: rgb(205, 83, 83); */
-  color: #bbb;
+  font-family: "Baskervville", serif;  */
+/* color: rgb(205, 83, 83); */
+/* color: #bbb;
   padding-left: 40px;
-}
+} */
 
-.para-2 {
+/* .para-2 {
   color: black;
   letter-spacing: 3px;
   font-weight: 100;
-  text-transform: none;
-  /* display: flex; */
-  /* justify-content: right; */
-  font-family: "Zen Maru Gothic", sans-serif;
-  /* font-family: "Baskervville", serif; */
-  text-indent: 22px;
-  /* text-align: left; */
-  /* padding: 0 72px; */
-  /* line-height: 24px; */
-}
-
+  text-transform: none; */
+/* display: flex; */
+/* justify-content: right; */
+/* font-family: "Zen Maru Gothic", sans-serif; */
+/* font-family: "Baskervville", serif; */
+/* text-indent: 22px; */
+/* text-align: left; */
+/* padding: 0 72px; */
+/* line-height: 24px; */
+/* } */
+/* 
 .a-connet4Vets {
   font-size: 1.3rem;
   padding-left: 40px;
   text-decoration: none;
-  color: #661b44;
-  /* font-family: "Baskervville", serif; */
-  letter-spacing: 10px;
-  /* padding-top: 10px; */
-}
+  color: #661b44; */
+/* font-family: "Baskervville", serif; */
+/* letter-spacing: 10px; */
+/* padding-top: 10px; */
+/* } */
 
-.home-h3 {
-  /* width: 50%; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* display: flex; */
-  font-family: "Zen Maru Gothic", sans-serif;
-}
+/* .home-h3 { */
+/* width: 50%; */
+/* justify-content: center; */
+/* align-items: center; */
+/* display: flex; */
+/* font-family: "Zen Maru Gothic", sans-serif; */
+/* } */
 
-.list-of-tech {
-  /* display: flex; */
-  padding-left: 5px;
-}
+/* .list-of-tech { */
+/* display: flex; */
+/* padding-left: 5px; */
+/* } */
 
-.project-ul-list {
-  list-style: none;
-  /* line-height: 29px; */
-  font-family: "Zen Maru Gothic", sans-serif;
-}
+/* .project-ul-list {
+  list-style: none; */
+/* line-height: 29px; */
+/* font-family: "Zen Maru Gothic", sans-serif;
+} */
