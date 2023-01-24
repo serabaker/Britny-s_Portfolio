@@ -1,19 +1,25 @@
 import React, { useEffect, useState } from "react";
 import "./Projects.css";
-import connet4Vets from "../../images/Connect4Vets.png";
+// import connet4Vets from "../../images/Connect4Vets.png";
+import Slider from "../Slider/Slider";
 
 const Projects = () => {
-  const [backendData, setBackendData] = useState([{}]);
+  // const [backendData, setBackendData] = useState([{}]);
 
-  useEffect(() => {
-    fetch("/project1")
-      .then((response) => response.json())
-      .then((data) => setBackendData(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("/project1")
+  //     .then((response) => response.json())
+  //     .then((data) => setBackendData(data));
+  // }, []);
 
   return (
     <div id="project" className="project-container">
-      <div className="cards">
+      {/* <div className="container-name"> */}
+      <h1 className="project-h1">Projects</h1>
+      {/* </div> */}
+      <>{<Slider />}</>
+
+      {/* <div className="cards">
         <div className="project-img">
           <img className="img-1" src={connet4Vets} alt="connect 4 vets app" />
         </div>
@@ -121,7 +127,8 @@ const Projects = () => {
             <li className="project-li-list"> Version Control: Github</li>
           </ul>
         </div>
-      </div>
+      </div> */}
+
       {/* <p className="project-home">Projects</p>
       <div className="display-container">
         <title className="home-h3">
