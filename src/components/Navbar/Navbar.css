@@ -1,7 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .nav {
   height: 100px;
-  margin-bottom: 50px;
-  /* background-color: red; */
+  padding-top: 40px;
 }
 .nav-ul {
   list-style: none;
@@ -20,14 +24,13 @@
   text-transform: uppercase;
   letter-spacing: 10px;
   font-style: oblique;
-  color: rgba(162, 170, 74, 0.947);
-
-  /* color: rgba(141, 149, 71, 0.947); */
+  /* color: rgba(162, 170, 74, 0.947); */
+  color: #9a998c;
   font-family: "Baskervville", serif;
 }
 
 .portfolio-name {
-  color: rgba(141, 149, 71, 0.947);
+  color: rgba(109, 119, 19, 0.947);
   font-size: 3.3rem;
   font-weight: 100;
   font-variant: small-caps;
