@@ -2,5 +2,21 @@
   height: 600px;
   width: auto;
   display: flex;
+  justify-content: right;
   border-bottom: solid black 1px;
+}
+.sidebar {
+  display: flex;
+  justify-content: right;
+  /* float: right; */
+}
+.h2 {
+  color: black;
+  display: flex;
+  justify-content: right;
+}
+.p {
+  color: black;
+  display: flex;
+  justify-content: right;
 }

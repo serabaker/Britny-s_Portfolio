@@ -46,11 +46,8 @@ const Blog = () => {
           and named whatever name you want.
           <code>data = pd.Series([1,2,3])</code>. If you aren't fimiliar with
           Series they represent a one dimensional array of indexed data. It has
-          two main components{" "}
-          <ul>
-            <li>1: An array of actual data</li>
-            <li>2: An associated array of index or data lables</li>
-          </ul>
+          two main components <span>1: An array of actual data</span>
+          <span>2: An associated array of index or data lables</span>
           now let's print the data <code>print(data)</code>, save and run the
           file and if all went well you should see the data printed under the
           output tab of the terminal.

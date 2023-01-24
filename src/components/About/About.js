@@ -4,7 +4,15 @@ import "./About.css";
 const About = () => {
   return (
     <div id="about" className="about">
-      <p>Wamp wamp what it do, what it do. Im Britny</p>
+      <h2 className="h2">About</h2>
+      <aside className="aside">
+        <p className="p">
+          Thanks for taking time to read about visit us. We are a dedicated
+          company serving small and mid-size businesses who are looking to give
+          their webites as a facelift. This could includes updating outdated
+          features, routing and/or design{" "}
+        </p>
+      </aside>
     </div>
   );
 };

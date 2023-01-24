@@ -3,6 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const portfolioName = ["Britny Lain"];
+
   return (
     <nav className="nav">
       <ul className="nav-ul">
@@ -14,7 +15,7 @@ const Navbar = () => {
         </li>
 
         <h3 className="portfolio-name">{portfolioName}</h3>
-        <li className="nav-li">
+        <li id="#projects" className="nav-li">
           <a href="#project">Projects</a>
         </li>
         <li className="nav-li">
