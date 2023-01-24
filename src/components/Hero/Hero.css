@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  background-color: #a2a392;
+  height: 400px;
+  margin: 40px;
+}
