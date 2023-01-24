@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-image {
+  height: 300px;
+  width: 350px;
+  margin: 1px;
+  padding-top: 5px;
+}
+.app-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  color: 000;
+  font-family: "Baskervville", serif;
+}
+.slider-a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: rgba(94, 101, 10, 0.947);
+  font-family: "Baskervville", serif;
+}

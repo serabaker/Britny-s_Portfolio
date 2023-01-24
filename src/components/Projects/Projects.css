@@ -5,13 +5,13 @@
 }
 
 .project-container {
-  display: flex;
+  /* display: flex; */
   border-bottom: solid black 1px;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  height: 700px;
-  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  height: 450px;
+  /* flex-wrap: wrap; */
+  margin-bottom: 15px;
 }
 .home-2 {
   color: #661b44;
@@ -56,7 +56,16 @@
   text-transform: uppercase;
   /* text-shadow: 1px 0px 2px #262654; */
 }
-
+.project-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Baskervville", serif;
+  font-weight: 100;
+  letter-spacing: 6px;
+  margin: 15px;
+}
 /* .project-home {
   font-size: 2.3rem;
   font-family: "Baskervville", serif;  */
