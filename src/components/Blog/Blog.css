@@ -10,6 +10,12 @@
   font-family: "Baskervville", serif;
 }
 
+.blog-wrapper {
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
 .blog-h1 {
   color: #9a998c;
   display: flex;
@@ -32,4 +38,9 @@
   letter-spacing: 4px;
   font-family: "Baskervville", serif;
   color: #a2a392;
+  text-decoration: none;
+}
+.blog-img {
+  border-radius: 20px;
+  justify-content: center;
 }
