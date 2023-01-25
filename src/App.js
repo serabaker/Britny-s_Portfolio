@@ -1,12 +1,23 @@
 import React from "react";
 import Home from "./components/Home/Home";
-// import Divider from "./components/Divider/Divider";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Blog from "./components/Blog/Blog";
+import BlogEntries from "../src/BlogEntries/BlogEntries";
+// import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Home />
-      {/* <Divider /> */}
+      <Router>
+        <Home />
+        <Routes>
+          <Route
+            path="/BlogEntries/BlogEntries.js"
+            element={<BlogEntries />}
+            component={BlogEntries}
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }
