@@ -10,12 +10,12 @@ const Home = () => {
   // const portfolioName = ["Britny Lain"];
   return (
     <>
-      <div id="about">
+      <div>
         {<Navbar />}
         <Hero />
         {/* <h1 className="home-h1">{portfolioName}</h1> */}
 
-        <About />
+        {<About />}
         {<Projects />}
         {<Blog />}
       </div>

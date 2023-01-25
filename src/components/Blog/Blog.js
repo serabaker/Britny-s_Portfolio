@@ -11,31 +11,34 @@ const Blog = () => {
   }, []);
   return (
     <div id="blog" className="blog-container">
-      <hr />
+      <h1 className="blog-h1">Blog</h1>
       <div>
         {typeof blogData.blogTitles === "undefined" ? (
           <p>Loading...</p>
         ) : (
           blogData.blogTitles.map((blogTitle, key) => (
-            <h3 key={key}>{blogTitle}</h3>
+            <h3 className="blog-title" key={key}>
+              {blogTitle}
+            </h3>
           ))
         )}
         <p className="blog-body">
-          Here is one method to installing python pandas onto your machine.
-          First you open a new window in VSCode by navigating your cursor to the
-          top of the screen and and clicking File --> New Window. From there you
-          are going to open a new terminal either by selecting command + J or by
-          navigating up to the tip of the screen again and selecting View -->
-          Terminal. #2: From the terminal create a python folder. If you want
-          this folder to live on your Desktop you will use the following command{" "}
-          <code>mkdir python</code>. This will create a new folder on your
-          Desktop with the name python. Next enter <code>code .</code> which
-          will open a new window with your newly created python folder. Now its
-          time to create out personal environment, go back to the terminal and
-          enter <code>python3.9 -m venv pythontime</code> Note that you can
-          replace the name pythontime with your own creative name. Type ls to
-          list everythind under the file. You should see the new environment you
-          just created. To enter that environment type{" "}
+          Here's one method to installing python pandas onto your machine. First
+          you open a new window in VSCode by navigating your cursor to the top
+          of the screen and and clicking <span>File --> New Window</span>. From
+          there you are going to open a new terminal either by selecting command
+          + J or by navigating up to the tip of the screen again and selecting
+          View --> Terminal. #2: From the terminal create a python folder. If
+          you want this folder to live on your Desktop you will use the
+          following command <span>mkdir python</span>. This will create a new
+          folder on your Desktop with the name python. Next enter{" "}
+          <code>code .</code> which will open a new window with your newly
+          created python folder. Now its time to create out personal
+          environment, go back to the terminal and enter{" "}
+          <code>python3.9 -m venv pythontime</code> Note that you can replace
+          the name pythontime with your own creative name. Type ls to list
+          everythind under the file. You should see the new environment you just
+          created. To enter that environment type{" "}
           <code>source nameofyourenviroment/bin/activate</code>. Next you should
           notice the name of your environment in pararenthis. Lastly and what
           you have all been waiting for type <code>pip install pandas</code>. To

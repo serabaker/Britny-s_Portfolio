@@ -1,6 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .blog-container {
   border-bottom: solid black 1px;
-  display: flex;
-  height: 600px;
+  margin: 40px;
+  height: 400px;
   font-family: "Baskervville", serif;
+}
+
+.blog-h1 {
+  color: #9a998c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Baskervville", serif;
+  font-weight: 100;
+  letter-spacing: 6px;
+  margin: 15px;
+}
+.blog-body {
+  padding: 20px;
+  color: #747367;
+  word-wrap: break-word;
+  letter-spacing: 3px;
+  font-family: "Baskervville", serif;
+}
+.blog-title {
+  letter-spacing: 4px;
+  font-family: "Baskervville", serif;
+  color: #a2a392;
 }

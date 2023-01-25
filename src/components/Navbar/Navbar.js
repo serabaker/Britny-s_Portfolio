@@ -12,7 +12,7 @@ const Navbar = () => {
             Home
           </a>
         </li>
-        <li className="nav-li">
+        <li id="#about" className="nav-li">
           <a className="nav-a" href="#about">
             About
           </a>
