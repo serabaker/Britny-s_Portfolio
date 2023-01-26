@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Blog.css";
 import pandas from "../../images/python_pandas.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const [blogData, setBlogData] = useState([{}]);
@@ -12,7 +12,7 @@ const Blog = () => {
       .then((data) => setBlogData(data));
   }, []);
   return (
-    <div id="blog" className="blog-container">
+    <div id="entries" className="blog-container">
       <h1 className="blog-h1">Engineering</h1>
 
       <div className="blog-wrapper">
@@ -25,13 +25,9 @@ const Blog = () => {
           <p>Loading...</p>
         ) : (
           blogData.blogTitles.map((blogTitle, key) => (
-            <a
-              href="../../BlogEntries/BlogEntries.js"
-              className="blog-title"
-              key={key}
-            >
+            <Link to={"/entries"} className="blog-title" key={key}>
               {blogTitle}
-            </a>
+            </Link>
           ))
         )}
       </div>

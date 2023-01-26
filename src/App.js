@@ -1,24 +1,16 @@
 import React from "react";
-import Home from "./components/Home/Home";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Blog from "./components/Blog/Blog";
-import BlogEntries from "../src/BlogEntries/BlogEntries";
-// import { Link } from "react-router-dom";
+import Entries from "./pages/Entries";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Home />
-        <Routes>
-          <Route
-            path="/BlogEntries/BlogEntries.js"
-            element={<BlogEntries />}
-            component={BlogEntries}
-          />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/entries" element={<Entries />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,7 +1,6 @@
 import React from "react";
-import "./BlogEntries.css";
 
-const BlogEntries = () => {
+const Entries = () => {
   return (
     <div id="entries">
       <p className="blog-body">
@@ -40,4 +39,4 @@ const BlogEntries = () => {
   );
 };
 
-export default BlogEntries;
+export default Entries;
