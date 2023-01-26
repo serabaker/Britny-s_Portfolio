@@ -7,10 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin: 40px; */
 }
 .slide-image {
   height: 300px;
-  width: 350px;
   margin: 1px;
   padding-top: 5px;
 }
