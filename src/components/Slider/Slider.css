@@ -5,14 +5,14 @@
 }
 .slider {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin: 40px; */
+  height: 600px;
+  margin: 40px;
 }
+
 .slide-image {
-  height: 300px;
-  margin: 1px;
+  height: 250px;
   padding-top: 5px;
+  margin: 1px;
 }
 .app-title {
   display: flex;
