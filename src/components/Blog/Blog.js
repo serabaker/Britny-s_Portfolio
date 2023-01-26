@@ -13,7 +13,7 @@ const Blog = () => {
   }, []);
   return (
     <div id="entries" className="blog-container">
-      <h1 className="blog-h1">Engineering</h1>
+      <h1 className="blog-h1">Blog</h1>
 
       <div className="blog-wrapper">
         <img
