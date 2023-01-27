@@ -8,4 +8,67 @@
   background-color: #a2a392;
   height: 600px;
   margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hero-text-wrapper {
+  padding: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  white-space: none;
+  /* background-color: black; */
+}
+
+.hero1-h1 {
+  text-transform: none;
+  font-family: "Baskervville", serif;
+  font-weight: 100;
+  letter-spacing: 9px;
+  font-size: 36px;
+  /* padding: 20px; */
+  /* background-color: white; */
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.hero2-h2 {
+  text-transform: none;
+  font-family: "Baskervville", serif;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-align: start;
+  width: 700px;
+  /* background-color: wheat; */
+  padding: 40px;
+}
+.hero-img {
+  height: 260px;
+  width: 250px;
+  border-radius: 360px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* padding: 220px; */
+  background-color: #eeebe7;
+  padding: 23px;
+  border: solid 3px #9a998c;
+}
+
+.img-container {
+  background-color: #f8f4e3;
+  padding: 50px;
+  /* display: flex; */
+  white-space: nowrap;
+  /* justify-content: center;
+  align-content: center; */
+  margin-bottom: 233px;
+  margin-top: 35px;
+  margin-right: 65px;
+  border-radius: 50px;
+}
+.hero-a {
+  text-decoration: none;
+  color: #eeebe7;
 }

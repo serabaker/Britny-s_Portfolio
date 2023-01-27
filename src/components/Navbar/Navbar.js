@@ -1,8 +1,9 @@
 import React from "react";
 import "./Navbar.css";
+import logo from "../../images/Britny Lain-logos.jpeg";
 
 const Navbar = () => {
-  const portfolioName = ["Britny Lain"];
+  // const portfolioName = ["Britny Lain"];
 
   return (
     <nav className="nav">
@@ -18,7 +19,7 @@ const Navbar = () => {
           </a>
         </li>
 
-        <h3 className="portfolio-name">{portfolioName}</h3>
+        <img className="portfolio-logo" src={logo} alt="britny lain logo" />
         <li id="#projects" className="nav-li">
           <a className="nav-a" href="#project">
             Projects

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .nav {
-  height: 100px;
+  height: 200px;
   padding-top: 40px;
 }
 .nav-ul {
@@ -29,19 +29,24 @@
   font-family: "Baskervville", serif;
 }
 
-.portfolio-name {
-  color: rgba(109, 119, 19, 0.947);
-  font-size: 3.3rem;
-  font-weight: 100;
-  font-variant: small-caps;
+.portfolio-logo {
+  /* color: rgba(109, 119, 19, 0.947);
+  font-size: 3.3rem; */
+  /* font-weight: 150px; */
+  /* font-variant: small-caps;
   font-style: italic;
-  letter-spacing: 8px;
-  /* height: 100px; */
-  /* display: flex; */
+  letter-spacing: 8px; */
+  height: 150px;
+  width: 150px;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   /* justify-content: right; */
-  padding: 0 32px;
-  white-space: nowrap;
+  /* padding: 10px 32px; */
+  border-radius: 360px;
+  /* white-space: nowrap; */
   /* margin-top: 52px; */
   /* font-family: "Marcellus", serif; */
-  font-family: "Baskervville", serif;
+  /* font-family: "Baskervville", serif; */
 }
