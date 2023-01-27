@@ -8,6 +8,7 @@
   height: 400px;
   border-bottom: solid black 1px;
   margin: 40px;
+  padding-top: 40px;
 }
 .h1 {
   color: #9a998c;
@@ -32,4 +33,5 @@
   word-wrap: break-word;
   letter-spacing: 4px;
   font-family: "Baskervville", serif;
+  text-align: justify;
 }
