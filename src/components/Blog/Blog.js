@@ -43,13 +43,15 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 import ListSubheader from "@mui/material/ListSubheader";
 import IconButton from "@mui/material/IconButton";
 // import InfoIcon from "@mui/icons-material/Info";
-import pandas from "../../images/python_pandas.png";
+// import pandas from "../../images/python_pandas.png";
+import Link from "@mui/material/Link";
 
 export default function TitlebarImageList() {
   return (
-    <ImageList sx={{ height: 450, margin: 4 }}>
+    <ImageList sx={{ height: 450, margin: 9 }}>
       <ImageListItem key="Subheader" cols={2}>
         <ListSubheader
+          id="blog"
           sx={{
             fontSize: 34,
             fontFamily: "Baskervville serif",
@@ -72,6 +74,7 @@ export default function TitlebarImageList() {
             loading="lazy"
           />
           <ImageListItemBar
+            id={item.id}
             title={item.title}
             subtitle={item.author}
             actionIcon={
@@ -90,7 +93,7 @@ export default function TitlebarImageList() {
 }
 
 const titleLinks = [
-  <a
+  <Link
     style={{
       color: "white",
       fontFamily: "Baskervville serif",
@@ -99,7 +102,7 @@ const titleLinks = [
     href="/entries"
   >
     Learn More About Pandas, Python Pandas That Is{" "}
-  </a>,
+  </Link>,
 ];
 
 const itemData = [
