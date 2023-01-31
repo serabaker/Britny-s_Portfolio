@@ -32,7 +32,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import "./Hero.css";
-import img from "../../images/1AB4A1DD-879D-4519-8E08-DF5E93EECE0E_1_201_a.jpeg";
+import img from "../../images/BL4.jpeg";
 
 export default function FixedContainer() {
   return (
