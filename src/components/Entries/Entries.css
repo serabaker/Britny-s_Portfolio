@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.blog-body {
+  margin: 40px;
+  color: #9a998c;
+  align-items: center;
+  justify-content: center;
+  text-transform: none;
+  font-family: "Baskervville", serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.entries-h2 {
+  margin: 40px;
+  color: #444;
+  letter-spacing: 4px;
+}
+.panda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid #9a998c 6px;
+}
+.back-button {
+  margin: 40px;
+  padding-bottom: 40px;
+  text-decoration: none;
+  color: black;
+}
