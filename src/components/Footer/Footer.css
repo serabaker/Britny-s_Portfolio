@@ -16,7 +16,7 @@
 }
 .footer-logo {
   text-decoration: none;
-  color: rgb(5, 47, 18);
+  color: #c3bf6d;
   letter-spacing: 4px;
   font-size: 32px;
   font-family: "Baskervville", serif;
@@ -29,7 +29,7 @@
 .footer-a {
   margin: 20px;
   text-decoration: none;
-  color: rgb(5, 47, 18);
+  color: #c3bf6d;
   letter-spacing: 4px;
   font-family: "Baskervville", serif;
 }

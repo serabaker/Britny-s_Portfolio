@@ -10,18 +10,19 @@ const Entries = () => {
         src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhbmRhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         alt="panda eating bamboo"
       />
+      <h3 className="entries-h3">Getting Started</h3>
       <article className="blog-body">
-        Here's one method to installing python pandas onto your machine. First
-        you open a new window in VSCode by navigating your cursor to the top of
-        the screen and and clicking <span>File New Window</span>. From there you
-        are going to open a new terminal either by selecting command + J or by
-        navigating up to the tip of the screen again and selecting View
-        Terminal. #2: From the terminal create a python folder. If you want this
-        folder to live on your Desktop you will use the following command{" "}
-        <span>mkdir python</span>. This will create a new folder on your Desktop
-        with the name python. Next enter <code>code .</code> which will open a
-        new window with your newly created python folder. Now its time to create
-        out personal environment, go back to the terminal and enter{" "}
+        One method to installing python pandas onto your machine. First you open
+        a new window in VSCode by navigating to the top of the screen and and
+        clicking <span>File New Window</span>. From there you are going to open
+        a new terminal either by selecting command + J or by navigating up to
+        the tip of the screen again and selecting View Terminal. #2: From the
+        terminal create a python folder. If you want this folder to live on your
+        Desktop you will use the following command <span>mkdir python</span>.
+        This will create a new folder on your Desktop with the name python. Next
+        enter <code>code .</code> which will open a new window with your newly
+        created python folder. Now its time to create out personal environment,
+        go back to the terminal and enter{" "}
         <code>python3.9 -m venv pythontime</code> Note that you can replace the
         name pythontime with your own creative name. Type ls to list everythind
         under the file. You should see the new environment you just created. To
@@ -42,7 +43,7 @@ const Entries = () => {
         and if all went well you should see the data printed under the output
         tab of the terminal.
       </article>
-      <a className="back-button" href="/">
+      <a className="back-button" href="/blog">
         Back to Articles
       </a>
     </div>
