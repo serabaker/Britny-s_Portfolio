@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-container {
+  height: 200px;
+  /* border: solid red 1px; */
+  flex-direction: column;
+  margin: 40px;
+  padding: 40px;
+  border-top: solid black 1px;
+}
+.footer-link-wrapper {
+  padding: 20px;
+}
+.footer-logo {
+  text-decoration: none;
+  color: rgb(5, 47, 18);
+  letter-spacing: 4px;
+  font-size: 32px;
+  font-family: "Baskervville", serif;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-a {
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(5, 47, 18);
+  letter-spacing: 4px;
+  font-family: "Baskervville", serif;
+}
+.web-rights {
+  font-family: "Baskervville", serif;
+  letter-spacing: 6px;
+  text-align: center;
+}
