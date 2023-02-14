@@ -58,6 +58,7 @@ export default function TitlebarImageList() {
             justifyContent: "center",
             alignItems: "center",
             display: "flex",
+            color: "#C3BF6D",
             paddingBottom: 2,
           }}
           component="div"

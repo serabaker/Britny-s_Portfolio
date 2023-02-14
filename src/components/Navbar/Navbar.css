@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .nav {
-  height: 200px;
+  height: 220px;
   padding-top: 40px;
 }
 .nav-ul {
@@ -24,29 +24,12 @@
   text-transform: uppercase;
   letter-spacing: 10px;
   font-style: oblique;
-  /* color: rgba(162, 170, 74, 0.947); */
-  color: #9a998c;
+  color: #c3bf6d;
   font-family: "Baskervville", serif;
 }
 
 .portfolio-logo {
-  /* color: rgba(109, 119, 19, 0.947);
-  font-size: 3.3rem; */
-  /* font-weight: 150px; */
-  /* font-variant: small-caps;
-  font-style: italic;
-  letter-spacing: 8px; */
   height: 150px;
   width: 150px;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* justify-content: right; */
-  /* padding: 10px 32px; */
   border-radius: 360px;
-  /* white-space: nowrap; */
-  /* margin-top: 52px; */
-  /* font-family: "Marcellus", serif; */
-  /* font-family: "Baskervville", serif; */
 }

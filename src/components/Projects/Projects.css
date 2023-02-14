@@ -6,7 +6,9 @@
 
 .project-container {
   height: 500px;
-  border-bottom: solid black 1px;
+  background-color: #ce8d66;
+
+  border-bottom: solid #e55934 1px;
   margin: 40px;
 }
 .home-2 {
@@ -52,7 +54,7 @@
   /* text-shadow: 1px 0px 2px #262654; */
 }
 .project-h1 {
-  color: #9a998c;
+  color: #c3bf6d;
   display: flex;
   align-items: center;
   justify-content: center;

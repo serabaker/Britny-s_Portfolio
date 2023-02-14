@@ -38,7 +38,7 @@ export default function FixedContainer() {
   return (
     <React.Fragment>
       {/* <CssBaseline /> */}
-      <Container sx={{ bgcolor: "#a2a392", height: 390, marginTop: 6 }}>
+      <Container sx={{ bgcolor: "#CE8D66", height: 390, marginTop: 6 }}>
         <Box
           sx={{
             bgcolor: "#eeebe7",
