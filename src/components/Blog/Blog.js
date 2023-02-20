@@ -45,6 +45,7 @@ import IconButton from "@mui/material/IconButton";
 // import InfoIcon from "@mui/icons-material/Info";
 // import pandas from "../../images/python_pandas.png";
 import Link from "@mui/material/Link";
+import linkinBusiness from "../../images/LinkedIn Business blog.jpg";
 
 export default function TitlebarImageList() {
   return (
@@ -63,7 +64,9 @@ export default function TitlebarImageList() {
           }}
           component="div"
         >
-          Quick Reads
+          <a style={{ color: "#C3BF6D", textDecoration: "none" }} href="/">
+            Quick Reads
+          </a>
         </ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (
@@ -93,23 +96,45 @@ export default function TitlebarImageList() {
   );
 }
 
-const titleLinks = [
-  <Link
-    style={{
-      color: "white",
-      fontFamily: "Baskervville serif",
-      textDecoration: "none",
-    }}
-    href="/entries"
-  >
-    Learn More About Pandas, Python Pandas That Is{" "}
-  </Link>,
-];
+const titleLinks = {
+  blogTitle1: (
+    <Link
+      style={{
+        color: "white",
+        fontFamily: "Baskervville serif",
+        textDecoration: "none",
+      }}
+      href="/entries"
+    >
+      Learn More About Pandas, Python Pandas That Is
+    </Link>
+  ),
+  blogTitle2: (
+    <Link
+      style={{
+        color: "white",
+        fontFamily: "Baskervville serif",
+        textDecoration: "none",
+      }}
+      href="/entries"
+    >
+      Why Create a Linked In Business Page
+    </Link>
+  ),
+};
 
 const itemData = [
   {
     img: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhbmRhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-    title: titleLinks[0],
+    title: titleLinks.blogTitle1,
+    author: "Author: serabaker",
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: linkinBusiness,
+    title: titleLinks.blogTitle2,
     author: "Author: serabaker",
     rows: 2,
     cols: 2,
