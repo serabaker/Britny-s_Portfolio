@@ -10,6 +10,7 @@
   margin: 40px;
   padding: 40px;
   border-top: solid 1px #e55934;
+  display: flex;
 }
 .h1 {
   color: #c3bf6d;
@@ -23,16 +24,21 @@
   margin: 15px;
 }
 .p {
-  padding: 20px;
+  padding: 90px 20px 20px 90px;
   color: black;
   display: flex;
   justify-content: right;
+  line-height: 30px;
 }
 .aside {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   height: 250px;
   width: 600px;
   word-wrap: break-word;
   letter-spacing: 4px;
   font-family: "Baskervville", serif;
   text-align: justify;
+  /* border: salmon solid 1px; */
 }
