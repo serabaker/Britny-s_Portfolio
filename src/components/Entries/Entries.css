@@ -4,15 +4,19 @@
   padding: 0;
 }
 .entries {
-  border: solid saddlebrown 1px;
   padding: 40px;
-  margin: 40px;
-  display: flex;
+  /* margin: 140px; */
+  display: block;
 }
-/* .blog-body {
-  border: solid saddlebrown 1px;
-
-  margin: 40px;
+.entry-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.blog-body {
+  display: block;
+  margin-bottom: 40px;
   color: black;
   text-align: left;
   justify-content: right;
@@ -20,48 +24,50 @@
   font-family: "Baskervville", serif;
   font-weight: 100;
   letter-spacing: 3px;
-  width: 50%;
   word-wrap: break-word;
+  line-height: 30px;
 }
-*/
+
 .entries-h2 {
   margin: 40px;
   color: #ce8d66;
   letter-spacing: 8px;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 100;
   font-family: "Baskervville", serif;
   display: flex;
   justify-content: center;
   align-content: center;
-  border: saddlebrown solid 1px;
 }
-/*
+
 .entries-h3 {
-  margin: 40px;
   color: #ce8d66;
   letter-spacing: 8px;
   font-size: 30px;
   font-weight: 100;
   font-family: "Baskervville", serif;
-  border-bottom: #ce8d66 solid 1px;
   width: 50%;
   padding-bottom: 20px;
-/* } */
+}
 
 .panda {
-  margin: 190px;
-  display: flex;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   justify-content: left;
-  /* margin: 40px; */
-  width: 50%;
   border-radius: 3px;
 }
+.panda-img {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
 .back-button {
-  margin: 40px;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   text-decoration: none;
   color: #ce8d66;
 }
