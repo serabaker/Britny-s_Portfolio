@@ -3,8 +3,11 @@ import "./Entries.css";
 
 const Entries = () => {
   return (
-    <div id="entries">
-      <h2 className="entries-h2">Python Pandas</h2>
+    <div id="entries" className="entries">
+      <div className="h2-wrapper">
+        <h2 className="entries-h2">Python Pandas</h2>
+      </div>
+
       <img
         className="panda"
         src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhbmRhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
