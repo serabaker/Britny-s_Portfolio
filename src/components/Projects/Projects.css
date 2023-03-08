@@ -2,14 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  flex-direction: row;
 }
-
+.mySlides {
+  height: 200px;
+  width: 415px;
+  padding: 8px;
+  flex-direction: row;
+}
 .project-container {
   height: 500px;
+  flex-direction: row;
   background-color: #ce8d66;
-
-  border-bottom: solid #e55934 1px;
+  /* border: #000 solid 9px; */
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
   margin: 40px;
+  /* width: 93%; */
 }
 .home-2 {
   color: #661b44;

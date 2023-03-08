@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Projects.css";
-// import connet4Vets from "../../images/Connect4Vets.png";
+import connet4Vets from "../../images/Connect4Vets.png";
+import weatherproject2 from "../../images/weatherproject2.png";
+import opalsorganic from "../../images/opalsorganic.png";
 import Slider from "../Slider/Slider";
 
 const Projects = () => {
@@ -12,13 +14,45 @@ const Projects = () => {
   //     .then((data) => setBackendData(data));
   // }, []);
 
+  let myIndex = 0;
+
+  const carousel = () => {
+    let i;
+    let x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {
+      myIndex = 1;
+    }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  };
   return (
     <div id="project" className="project-container">
       {/* <div className="container-name"> */}
       <h1 className="project-h1">Projects</h1>
       {/* </div> */}
-      <>{<Slider />}</>
 
+      {/* <>{<Slider />}</> */}
+      {/* <div className="img-section"> */}
+      <img
+        className="mySlides"
+        src={connet4Vets}
+        alt="connect 4 Vets landing page"
+      />
+      <img
+        className="mySlides"
+        alt="weather app landing page"
+        src={weatherproject2}
+      />
+      <img
+        className="mySlides"
+        alt="opals organic landing "
+        src={opalsorganic}
+      />
+      {/* </div> */}
       {/* <div className="cards">
         <div className="project-img">
           <img className="img-1" src={connet4Vets} alt="connect 4 vets app" />
