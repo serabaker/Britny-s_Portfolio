@@ -59,7 +59,7 @@ export default function FixedContainer() {
           platforms. For more information, visit the
           <span>
             {" "}
-            <a className="hero-a" href="#contact">
+            <a className="hero-a" href="/contact">
               Contact Page
             </a>
           </span>
